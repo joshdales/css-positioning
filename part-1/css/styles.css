@@ -50,6 +50,9 @@ body {
 }
 
 .orange {
+  position: absolute;
+  top: 75%;
+  left: 25%;
   background-color: orange;
 }
 
