@@ -16,6 +16,7 @@ body {
 }
 
 .container {
+  position: relative;
   width: 90%;
   margin: auto;
   border: 3px solid black;
@@ -28,6 +29,10 @@ body {
 }
 
 .red {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+
   background-color: pink;
 }
 
@@ -36,6 +41,9 @@ body {
 }
 
 .blue {
+  position: absolute;
+  top: 50px;
+  left: 200px;
   background-color: lightblue;
 }
 
