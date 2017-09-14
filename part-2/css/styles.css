@@ -24,6 +24,20 @@ figure {
 }
 
 .film {
+  position: relative;
+}
+
+.film {
   width: 50%;
   margin: 40px auto;
+}
+
+.fa-2x {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.fa {
+  color: red;
 }
