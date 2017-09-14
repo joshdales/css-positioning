@@ -16,7 +16,13 @@ body {
 }
 
 img {
-  max-width: 100%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: auto;
+  height: 340px;
+  display: inline-block;
+  float: left;
 }
 
 figure {
@@ -25,19 +31,43 @@ figure {
 
 .film {
   position: relative;
-}
-
-.film {
   width: 50%;
   margin: 40px auto;
+  border: 1px solid rgb(245, 245, 245);
+}
+
+
+.film-details{
+  height: 380px;
+  padding: 10px;
+
+}
+
+.film-description,
+.film-title {
+  width: 370px;
+  position: absolute;
+  right: 20px;
+  padding-left: 20px;
+}
+
+.film-description {
+  top: 60px;
+  padding-left:
 }
 
 .fa-2x {
   position: absolute;
-  top: 8px;
-  right: 8px;
+  top:26px;
+  left: 211px;
 }
 
 .fa {
   color: red;
+}
+
+.action-like {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
 }
